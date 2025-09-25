@@ -7,7 +7,9 @@ import { useEffect } from "react"
 
 declare global {
   interface Window {
-    Calendly: any
+    Calendly?: {
+      initPopupWidget: (options: { url: string }) => void
+    }
   }
 }
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { Instagram, Facebook, Heart, Sparkles } from "lucide-react"
+import { Instagram, Heart, Sparkles } from "lucide-react"
 import { FaTiktok } from "react-icons/fa"
 
 export function Footer() {
@@ -62,23 +62,16 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex justify-center md:justify-end space-x-6 pt-5">
             <a
-              href="https://instagram.com/borabeauty"
+              href="https://www.instagram.com/bora.beauty_?igsh=MTBnOHhrZTl2NnUxOA%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 transition-transform"
             >
               <Instagram className="w-6 h-6 text-pink-600" />
             </a>
-            {/* <a
-              href="https://facebook.com/borabeauty"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:scale-110 transition-transform"
-            >
-              <Facebook className="w-6 h-6 text-gray-700" />
-            </a> */}
+
             <a
-              href="https://tiktok.com/@borabeauty"
+              href="https://www.tiktok.com/@bora.beauty_?_t=ZM-8zzpFb8t5Ip&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:scale-110 transition-transform"

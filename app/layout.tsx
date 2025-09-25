@@ -43,9 +43,6 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${inter.variable} ${dancingScript.variable}`}
     >
-      <head>
-        <link rel="icon" href="/favicon.png" />
-      </head>
       <body className="bg-background text-foreground font-sans antialiased">
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />

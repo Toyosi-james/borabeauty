@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import { Card } from "@/components/ui/card"
@@ -185,7 +186,7 @@ export function ServicesSection() {
               {extraServices.map((service, index) => (
                 <Card
                   key={index}
-                  className="p-6 text-center  shadow-md rounded-xl border-2 border-pink-400 hover:shadow-lg transition-all bg-pink-200"
+                  className="p-6 text-center shadow-md rounded-xl border-2 border-pink-400 hover:shadow-lg transition-all bg-pink-200"
                 >
                   <h4 className="text-lg font-semibold text-gray-800 mb-2">{service.name}</h4>
                   <span className="text-xl font-bold text-pink-500">{service.price}</span>

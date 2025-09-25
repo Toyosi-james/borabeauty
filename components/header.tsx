@@ -35,7 +35,8 @@ export function Header() {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between ">
         {/* Logo */}
         <h1 className="text-3xl font-playfair tracking-wide text-yellow-500 text-shadow-gray-900 drop-shadow-sm">
-          Bora's <span className="italic text-pink-500">Beauty</span>
+            Bora&apos;s <span className="italic text-pink-500">Beauty</span>
+
         </h1>
 
         {/* Desktop Navigation */}
