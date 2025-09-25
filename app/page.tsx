@@ -5,7 +5,7 @@ import { ServicesSection } from "@/components/services-section"
 import { GallerySection } from "@/components/gallery-section"
 import { BookingSection } from "@/components/booking-section"
 import { Footer } from "@/components/footer"
-import { CalendlyWidget } from "@/components/calendly-widget"
+
 import "./globals.css"
 
 
@@ -19,7 +19,7 @@ export default function HomePage() {
       <GallerySection />
       <BookingSection />
       <Footer />
-      <CalendlyWidget />
+      
     </main>
   )
 }
