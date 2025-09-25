@@ -9,15 +9,15 @@ import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react"
 
 const galleryItems = [
-  { type: "video", src: "/video 10.mp4", title: "Volume Lash Transformation", category: "Lashes" },
-  { type: "video", src: "/video 4.mp4", title: "whispy Lash Transformation", category: "Lashes" },
-  { type: "video", src: "/video 8.mp4", title: "Hybrid Lash Set ", category: "Lashes" },
-  { type: "video", src: "/video 5.mp4", title: "Microblading Session", category: "Brows" },
-  { type: "video", src: "/video 9.mp4", title: "Hybrid Lashes", category: "Lashes" },
-  { type: "video", src: "/video 11.mp4", title: "Classic Lash set", category: "Lashes" },
-  { type: "video", src: "/video 14.mp4", title: "Semi-permanent Tatoo", category: "Tatoo" },
-  { type: "video", src: "/video 12.mp4", title: "hybrid Lash set", category: "Lashes" },
-  { type: "video", src: "/video 13.mp4", title: "Microblading Session", category: "Brows" }
+  { type: "video", src: "/Video10.mp4", title: "Volume Lash Transformation", category: "Lashes" },
+  { type: "video", src: "/Video4.mp4", title: "whispy Lash Transformation", category: "Lashes" },
+  { type: "video", src: "/Video8.mp4", title: "Hybrid Lash Set ", category: "Lashes" },
+  { type: "video", src: "/Video5.mp4", title: "Microblading Session", category: "Brows" },
+  { type: "video", src: "/Video9.mp4", title: "Hybrid Lashes", category: "Lashes" },
+  { type: "video", src: "/Video11.mp4", title: "Classic Lash set", category: "Lashes" },
+  { type: "video", src: "/Video14.mp4", title: "Semi-permanent Tatoo", category: "Tatoo" },
+  { type: "video", src: "/Video12.mp4", title: "hybrid Lash set", category: "Lashes" },
+  { type: "video", src: "/Video13.mp4", title: "Microblading Session", category: "Brows" }
 ]
 
 const categories = [
